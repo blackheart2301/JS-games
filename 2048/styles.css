@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #gameContainer {
+    margin: 50px auto;
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #bbada0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cell {
+    background-color: #cdc1b4;
+    border-radius: 5px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  #newGameButton {
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

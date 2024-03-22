@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #gameContainer {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #score, #time {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #holes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .hole {
+    width: 100px;
+    height: 100px;
+    background-color: #663300;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .mole {
+    width: 60px;
+    height: 60px;
+    background-color: #996633;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: none;
+  }
